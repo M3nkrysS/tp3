@@ -7,17 +7,17 @@ import random
 
 
 def score_de():
-    lance_de = random.randint(1, 6)
+    lance_de = random.randint(2, 12)
     return lance_de
 
 
 def force_adversaire():
-    force_ennemi = random.randint(1, 5)
+    force_ennemi = random.randint(2, 11)
     return force_ennemi
 
 
 def force_boss():
-    atk_boss = random.randint(3, 5)
+    atk_boss = random.randint(6, 11)
     return atk_boss
 
 
